@@ -1,0 +1,10 @@
+#+TITLE: Readme
+
+Source the env
+#+begin_src sh
+source .env/bin/activate
+which python
+#+end_src
+
+#+RESULTS:
+: /Users/karl.webster/Documents/git/personal/selenium_testing/.env/bin/python

@@ -39,7 +39,7 @@ def test_element_spwaned_button_delete(browser, add_remove_elements_page, add_re
     # Click the button
     browser.find_element(By.XPATH, add_remove_elements_button_xpath).click()
     # Click the spwaned button to delete it
-    #browser.find_element(By.XPATH, '/html/body/div[2]/div/div/div/button').click()
+    browser.find_element(By.XPATH, '/html/body/div[2]/div/div/div/button').click()
     try:
         assert browser.find_element(By.XPATH, '/html/body/div[2]/div/div/div/button').text == NoSuchElementException
         assert False, "Button still exists"

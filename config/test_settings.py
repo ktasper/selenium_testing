@@ -12,3 +12,4 @@ class Page:
     home = Settings.protocol_slug + "{}".format(page_url)
     basic_auth = page_url + "/basic_auth"
     elements = full_uri + "/add_remove_elements/"
+    broken_images = full_uri + "/broken_images"
